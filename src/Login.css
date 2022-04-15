@@ -1,0 +1,25 @@
+.login-page{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box{
+padding: 100px;
+background-color: #F5F5F5;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.login-box button{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    padding: 15px;
+    background-color: #203239;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+.login-box button:hover{
+    background-color: #05595B;
+}
+

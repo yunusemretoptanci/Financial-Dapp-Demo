@@ -1,0 +1,47 @@
+.profile-page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-input{
+background-color: #495371;
+color: #FDEFF4;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius:5px ;
+text-align: center;
+padding: 20px;
+cursor: pointer;
+}
+.user-input label{
+    padding-top: 10px;
+}
+
+.sign-button{
+ margin-top: 10px;
+background-color: #495371;
+color: #FDEFF4;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius:5px ;
+text-align: center;
+padding: 15px;
+cursor: pointer;
+}
+.sign-button p{
+    margin: 0;
+}
+.sign-button:hover{
+   background-color: #21325E;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
